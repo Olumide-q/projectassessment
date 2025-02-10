@@ -12,6 +12,7 @@ const Business = () => {
     const navigate = useNavigate()
     const onSubmit = async (data)=>{
         console.log(data)
+        localStorage.setItem('formState', JSON.stringify(data))
         navigate('/verify')
     }
   return (

@@ -13,6 +13,7 @@ const Individual = () => {
       if(!username.trim() || !email.trim() || !fullname.trim() || !phonenumber.trim()){
         setError('All fields are required ')
       }else{
+        localStorage.setItem('formState', JSON.stringify(username, fullname, email, phonenumber))
         setError('');
         navigate('/verify')
       }

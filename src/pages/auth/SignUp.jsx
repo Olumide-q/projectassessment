@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import Business from '../../component/reusables/Business'
 import Individual from '../../component/reusables/Individual'
 import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 
 
 const SignUp = () => {
   const [current, setCurrent] = useState("individual")
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
     
   const handleSetCurrent = (tab) => {
     setCurrent(tab)
@@ -40,3 +40,4 @@ const SignUp = () => {
 }
 
 export default SignUp
+
