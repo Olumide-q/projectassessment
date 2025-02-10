@@ -1,7 +1,6 @@
 import React from 'react'
 import icon from '../assets/Group 133.png'
 import { NavLink } from 'react-router-dom'
-import Instant from '../pages/instant'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
 import  {useState, useEffect, useRef} from 'react'
