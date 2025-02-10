@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="relative flex w-full h-[665px] container mx-auto">
       <div className='lg:w-[40%] py-27 pl-8 flex flex-col gap-5'>
         <h1 className='font-semibold text-5xl text-white'>Buy, sell and manage your Crypto on TradExpress.</h1>
-        <p className='text-sm text-white'>Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC & XRP with NGN.</p>
+        <p className='text-sm text-white'>Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC & XRP with NGN</p>
        <div className='flex flex-col gap-6'>
        <div>
        <button className='bg-white text-purple-500 lg:px-29  px-29 rounded-md py-2'>Get Started</button>
