@@ -5,7 +5,7 @@ import google from '../assets/icons/logos_google-play-icon.svg'
 
 const Hero = () => {
   return (
-    <div className=' bg-[#7C20BF]  '>
+    <div className=' bg-[#7C20BF] lg:pt-29 '>
       <div className="relative flex w-full h-[665px] container mx-auto">
       <div className='lg:w-[40%] py-27 pl-8 flex flex-col gap-5'>
         <h1 className='font-semibold text-5xl text-white'>Buy, sell and manage your Crypto on TradExpress.</h1>

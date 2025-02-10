@@ -40,7 +40,7 @@ const NavBar = () => {
         }
     },[menuOpen])
   return (
-    <div className='bg-[#7C20BE] md:w-full lg:w-full w-[90%]  mx-auto lg:px-20 py-4 flex justify-between items-center  shadow fixed z-50 right-0 left-0'>
+    <div className='bg-[#7C20BE] max-w-[1280px] md:w-full lg:w-full w-[90%]  mx-auto lg:px-20 py-4 flex justify-between items-center  shadow fixed z-50 right-0 left-0'>
      <NavLink to='/'>
         <img src={icon} alt='logo' className='' />
      </NavLink>

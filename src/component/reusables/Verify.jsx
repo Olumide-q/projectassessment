@@ -4,7 +4,7 @@ import gift from '../../assets/image/Rectangle 26.jpg'
 const Verify = () => {
   return (
     <div className='w-full  bg-[#fff] mx-auto flex p-29  justify-center  text-center px-8'>
-      <div className=' bg-[#FBF8FD] my-12 p-8 space-y-4 flex flex-col gap-2  w-[350px] md:w-[601px]'>
+      <div className=' bg-[#FBF8FD] my-12 p-8 space-y-4 shadow-md flex flex-col gap-2  w-[350px] md:w-[601px]'>
         <h1 className='text-3xl'>You're Almost In!</h1>
         <h1 className='font-semibold text-4xl'>Welcome Iretiayo</h1>
         <div className=' mx-auto'>

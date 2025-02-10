@@ -13,7 +13,7 @@ const CoinSec = () => {
     try {
       setLoading(true)
       const response = await axios.get('https://api.coinlore.net/api/tickers/?start=0&limit=8',data);
-      // console.log(response.data.data);
+      console.log(response.data.data);
       
       setCoins(response.data.data)
       if(response.status === 201){
